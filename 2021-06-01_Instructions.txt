@@ -1,0 +1,66 @@
+
+- Plan
+    - Fake CEED Data is the default project
+    - At various points, I might pull you off that and put you on higher priority things
+    - This is a 96 hour contract
+        - You choose when you work
+        - June, July, August
+        - Need to have worked all hours by August 31st
+    - Please track your hours on the spreadsheet in the Dropbox
+
+
+
+- Set Up
+    - Absolutely everything must be explicit in the code. 
+    - Naming of things
+        - Files
+            - Main_XXX.do
+            - Clean_XXX.do
+            - Graphs_xAxisVar.do
+            - Tables_XXX.do
+        - Graphs
+            - Graph_xAxisVar_yAxisVar_XXX.pdf
+        - Tables
+            - Table_XXX.tex
+    - Using Git
+        - Git Tutorial: https://swcarpentry.github.io/git-novice/
+        - Set up with Github
+        - Clone: https://github.com/Baxter-Robinson/FakeCEEDD.git
+        - Please check-in and check-out every time you start and finish work
+
+
+- To Do
+    - Read Documentation/Grant-Application.pdf for context
+    - Clean Data
+        - Rename names to be more intuitive
+        - Maybe create some subfiles for ease
+    - Graphs and Tables
+        - Table: Descriptive Statistics: Occupation, Capital Income Level, Labour Income Level, Age of Business 
+        - Graph: Selection into entrepreneurship
+            - X: Deciles of capital income, Deciles of labour income, Deciles of total income
+            - Y: Probability of transitioning into Entrepreneurship/ Proportion of Entrepreneurs/ Average employment of firms/ 5 year survival rate
+        - Event Study Graph
+            - X-axis: Time around business formation {-3,-2,-1,0,1,2,3}
+            - Y-axis: Labour income, capital income outside the business, Business Income, total income
+            - Variants: Businesses that survive for at least 5 years vs everyone
+            - Variants: Averages vs. Regression framework in Grant Application
+        - Graph:
+            - X-axis: percentile of labour market income (3 year average) prior to entrepreneurship
+            - Y-axis: average percentile of entrepreneurial income post entrepreneurship (3 year average)
+        - Table
+            - What do entrepreneurs do after exiting a business: Return to labour market vs. new business vs. retire (0% in fake data) 
+        - Graph: Exit
+            - X-axis: Time before business formation {-3,-2,-1} and after business exit {1,2,3}
+            - Y-axis: Labour income, capital income outside the business, total income
+            - Variant: Businesses that survive for at least 5 years vs everyone
+            - Variants: Averages vs. Regression framework in Grant Application
+
+
+
+To Do Before Next Meeting:
+    - Make a new Dropbox/ Upgrade Dropbox - Done!
+    - Work through git tutorial: https://swcarpentry.github.io/git-novice/
+    - Make a Github account
+    - (Delete the current Project folder)
+    - Clone: https://github.com/Baxter-Robinson/FakeCEEDD.git into the Dropbox folder
+    - Email Baxter for another meeting
